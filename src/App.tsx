@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { 
-  Sparkles, ArrowRight, User, Mail, Printer, RotateCcw, 
-  Send, Target, ShieldCheck, Search, Zap, CheckCircle2 
+  Sparkles, ArrowRight, Printer, Send, Target, 
+  ShieldCheck, Search, Zap, CheckCircle2 
 } from 'lucide-react';
 
 // --- DATABASE 30 DOMANDE ---
