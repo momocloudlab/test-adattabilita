@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-plum-900: #701a75;
+  --color-plum-800: #86198f;
+  --color-plum-700: #a21caf;
+}
+
+@layer base {
+  body { @apply bg-[#FDFBFE] text-slate-800 antialiased; }
+}
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: white !important; }
+  .rounded-[3rem] { border-radius: 0 !important; border: none !important; box-shadow: none !important; }
+}
